@@ -56,7 +56,7 @@ public class Main {
             
         }
         // retorna o texto encriptado 
-        return encritado;
+        return encritado.trim();
         }
         
         public static void main(String[] args){

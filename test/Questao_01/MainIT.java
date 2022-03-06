@@ -22,14 +22,14 @@ public class MainIT {
     @Test
     public void testMediana() {
     int [] numeros = {9, 2, 1, 4, 6};  
-        assertEquals(4, Main.mediana(numeros));
+        assertEquals(Integer.toString(4), Main.mediana(numeros));
      
     }
+    
     
       @Test
     public void testMediana1() {
     int [] numeros = {9, 2, 1, 4}; 
-     
         assertEquals("Quantidade de numeros informados devem ser impar",Main.mediana(numeros));
      
     }

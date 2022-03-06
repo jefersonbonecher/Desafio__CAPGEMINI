@@ -36,7 +36,7 @@ public class Main {
 
         } else {
             // se o numero for par retorna uma mensagem 
-            return ("Quantidade de numeros informados devem ser impar");
+                return ("Quantidade de numeros informados devem ser impar");
         }
         //transformando um inteiro em uma String 
         return Integer.toString(resultado);
@@ -45,9 +45,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] numeros = {10, 20, 14, 15, 26, 17};
+        int[] arr = {10, 20, 14, 15, 26, 17, 5};
 
-        System.out.println(mediana(numeros));
+        System.out.println(mediana(arr));
     }
 
 }

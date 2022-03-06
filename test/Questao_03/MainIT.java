@@ -29,8 +29,8 @@ public class MainIT {
         assertEquals(13,aux.length());
        
         assertEquals(4, raiz);
-        
-        assertEquals("taoa eum nmd hbi" ,texto);
+                
+        assertEquals("taoa eum nmd hbi" ,(Main.encriptar(texto)));
     }
     
 }

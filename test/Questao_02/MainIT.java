@@ -40,6 +40,13 @@ public class MainIT {
      
     }
     
+        @Test
+    public void testParesnegativo() {
+     int numero = -2;
+        int[] vetor = {1,5,3,4,2};
+        assertEquals(3, Main.pares(vetor, numero));
+     
+    }
       @Test
     public void testParesSemPares() {
      int x = 2;
